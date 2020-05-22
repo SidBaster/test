@@ -1,0 +1,26 @@
+body
+{
+font-family:  sans-serif;
+font-size: 19px;
+color :  red;
+line-height: 60px;
+}   
+
+ .title{
+	text-align: center;
+	font-style : italic;
+	letter-spacing: 4px;
+	text-decoration: underline;
+	text-transform: uppercase
+}
+
+.justifay
+{
+	font-weight: bold;
+	text-align: justify;
+}
+
+ul
+{
+	list-style-type: none;
+}

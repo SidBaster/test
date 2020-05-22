@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<style type="text/css">
+
+  @font-face
+  {
+    font-family: "Gnomoria_rus" ;
+    src: url(fonrs/19024.ttf);
+  }
+  @font-face
+  {
+    font-family: "Noto_Sans" ;
+    src: url(fonrs/19167.ttf);
+  }
+  
+  body
+  {
+    background-color:  #D8BFD8;
+  }
+  
+
+  #head
+  {
+    width: 100%;
+    height: 75px;
+    background-image: url(foto/PX2.png);
+    word-spacing: 10px ; 
+    font-family: Gnomoria_rus ;  
+  }
+
+   #Gif
+   {
+    float:  left;
+    margin-right: 10px;
+   }
+
+   .title
+   {
+    color:  #8B008B ;
+    text-align: left;
+   }
+
+    .list
+   {
+    list-style-type: square;
+    font-size: 13px;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    color:  #8B008B;
+   }
+
+   .menu
+   {
+    color: #8B008B ;
+   }
+
+   .footer
+   {
+    display: inline-block;
+    background-image: url(foto/footer.png);
+    font-family: Gnomoria_rus ;
+    width: 100%;
+    height: 75px;
+   }
+   a 
+   { 
+    text-align: center;
+    color: #4B0082;
+   }
+   .footer p
+   {
+    text-align: center;
+    color: #4B0082;
+   }
+
+</style>
+</head>
+<header id="head" >
+
+    <a href="MainList.html"> <img id="Gif"  src="foto/gina.gif"  width="55px" height="65px" float="left"  style=" margin-right: 10px;"></a>
+
+     <section class="title"  >
+        <h3>
+            Website dedicated to Pixel art & Retrowave<br>
+            dedicated to all pixel lovers
+        </h3>
+     </section>
+      
+     <ul class="list">
+        <li><a   class="menu" href="login_page.html">Sing in</a></li>
+        <li><a   class="menu" href="Forum.html">Forum</a></li>
+        <li><a   class="menu" href="">About us</a></li>
+    </ul>  
+</header>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="text-center">
+                     Forum
+                </h2>
+            </div>
+            <div class="col-lg-6">
+                <div id="comment-field"></div>
+            </div>
+            <div class="col-lg-6">
+                    <form>
+                            <div class="form-group">
+                              <label for="comment-name">Name:</label>
+                              <input type="email" class="form-control" id="comment-name"  placeholder="Enter your name">
+                            </div>
+                            <div class="form-group">
+                              <label for="comment-body">Comment:</label>
+                              <textarea type="password" class="form-control" id="comment-body" placeholder="comment"></textarea>
+                            </div>
+                            <div class="form-group form-check text-right">
+                                    <button type="submit" id="comment-add" class="btn btn-primary">add Comment</button>
+                            </div>
+                          </form>
+                        </div>
+                    </div>
+                </div>
+  
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="Js/forum.js"></script>
+    <footer class="footer" >
+             <p><a  href="https://mail.google.com/mail/u/0/#sent?compose=new" target="_blank">Zadawaj pytania przez e-mail</a><br>
+             numer telefonu : +48 511 512 722</p>
+        </footer>
+</body>
+</html>
